@@ -1,12 +1,11 @@
 {
   "name": "wordle",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an awesome game which got viral by New York times website.  It's made with Javascript, and it was used 2 apis in order to get random words with length = 5 and th other one to validate if the word exists.  At backend it was used Express, Cors and Axios libraries.",
   "main": "app.js",
   "scripts": {
     "start:backend": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "repository": {
     "type": "git",
@@ -24,5 +23,6 @@
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {}
 }
