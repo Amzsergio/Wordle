@@ -125,9 +125,13 @@ const deleteLetter = (letter) => {
 
 const checkRow = (letter) => {
     const guess = guessRows[currentRow].join('');
+
     if (currentTile > 4){
-        flipTile();
+            
         console.log('guess is ' + guess, 'wordle is ' + wordle)
+
+        flipTile();
+
         if ( wordle == guess){
             showMessage('Magnificent');
             isGameOver = true;
